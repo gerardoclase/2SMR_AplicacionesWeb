@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Página de contacto</h1>  
+  <a href="index.html">Volver a pagina principal</a><br>
+  <img src="img/imagen dav.jpg" alt="imagen dav" height="300px" width="400px" title="Colegio">
+  <br>
+  <form action="datos.php" method="post">
+    <fieldset>
+      <legend><b>Formulario datos personales</b></legend>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" value="Gerardo"><br>
+    <label for="apellido">Apellidos</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Escriba aqui su apellido"><br>
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad"><br>
+    <label for="clave">Contraseña</label>
+    <input type="password" id="clave" name="clave"><br>
+    </fieldset>
+
+    <fieldset>
+    <legend><b>Lista desplegable</b></legend>
+    <select name="Lista">
+      <option value="modulo1"> Sistemas operativos en red</option>
+      <option value="modulo2"> Aplicaciones web</option>
+      <option value="modulo3"> Fundamentos de programacion</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend><b>Listado de la compra</b></legend>
+      <input type="checkbox" id="elemento1" name="elemento1" value="leche">
+      <label for="elemento1"> Caja de leche</label><br>
+      <input type="checkbox" id="elemento2" name="elemento2" value="huevos">
+      <label for="elemento2"> Docena de huevos</label><br>
+      <input type="checkbox" id="elemento3" name="elemento3" value="pan" checked="true">
+      <label for="elemento3"> Barra de pan</label><br>
+    </fieldset>
+    <br>
+    <label for="comentario"> Comentarios</label>
+    <textarea id="comentario" name="comentario" rows="10" cols="40"></textarea><br>
+    <button type="submit"> Enviar</button>
+    <button type="reset"> Borrar</button>
+  </form>
+</body>
+</html>
