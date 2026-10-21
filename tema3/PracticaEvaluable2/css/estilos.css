@@ -1,0 +1,30 @@
+/* =========================================================
+   Práctica 1 — Hoja de estilos del Club de Informática SMR
+   Nombre y apellidos: Gerardo Molina Bruque
+   ========================================================= */
+
+/* Escribe aquí tu CSS. Recuerda: cada regla con un comentario
+   que explique, con tus palabras, para qué sirve. */
+
+   body {
+      color:black;
+      font-family:'Times New Roman', Times, serif;
+      background-color:lemonchiffon;
+   }
+
+   #cabecera{
+      background-image: url(../img/bannerpagweb.png);
+      height: 85px;
+      padding: 70px;
+      border: 20px;
+      color:white;
+      text-align: center;
+      font-style: initial;
+      font-size: 25px;
+   }
+   #subtitulo{
+      font-style: initial;
+      color: cyan;
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
