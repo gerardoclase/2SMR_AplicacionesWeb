@@ -9,9 +9,11 @@
    body {
       color:black;
       font-family:'Times New Roman', Times, serif;
-      background-color:lemonchiffon;
+      background-color: #a3b8f5;
    }
 
+/*Le he puesto un banner de fondo a la cabecera, después la he ajustado, 
+y he editado del texto el color, centrado, tamaño y estilo*/
    #cabecera{
       background-image: url(../img/bannerpagweb.png);
       height: 85px;
@@ -22,9 +24,189 @@
       font-style: initial;
       font-size: 25px;
    }
-   #subtitulo{
+   .subtitulo{
       font-style: initial;
       color: cyan;
       font-size: 18px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
+
+/*Este es el fondo y el estilo del nav*/
+   nav{
+      background-color: darkslateblue;
+      text-align: center;
+      padding: 10px;
+   }
+   
+   /*Esto es para que los enlaces salgan como botones*/
+   nav a{
+      display: inline-block;
+      text-decoration: none;
+      color: rgb(5, 5, 94);
+      background-color: white;
+      padding: 8px 16px;
+      margin: 4px;
+      border-radius: 5px;
+   }
+
+   /*Esto sirve para cambiarle el color a los botones del nav cuando
+   pones el raton encima*/
+   nav a:hover{
+      background-color: red;
+   }
+
+   /*Esto es para cambiarle el estilo a los h2*/
+   h2{
+      color: rgb(5, 5, 94);
+      text-decoration:underline;
+      font-style: initial;
+   }
+
+   p{
+      line-height: 1.5;
+      font-size: 15px;
+      text-align: justify;
+   }
+
+   .titulos2{
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px 30px;
+      margin: 15px;
+   }
+
+   ul{
+      color:rgb(1, 95, 1);
+      font-size: 17px; /*Tamaño de letra*/
+      line-height: 25px;
+      font-variant: small-caps;
+   }
+
+   ol{
+      color: blueviolet;
+      font-size: 17px;/*Tamaño de letra*/
+      line-height: 20px;/*Interlineado*/
+      font-variant: small-caps;/*Crea las versalitas*/
+   }
+
+   /*Le damos estilo a una linea de cada li*/
+   .destacado{
+      color: red;
+   }
+
+   /*Con a:hover al pasar el raton por encima del enlace le
+   cambiamos el color de fondo*/
+   a:hover{
+      background-color: rgb(18, 227, 18);
+   }
+
+   /*Los links no visitados aparecen en rojo*/
+   a:link{
+      color: rgb(255, 0, 0);
+   }
+
+   /*Con esto los enlaces visitados se ponen de color amarillo*/
+   a:visited{
+      color: yellow;
+   }
+
+   table{
+      width: 85%; /*Esto sirve para que la tabla ocupe un ancho*/
+      margin-left:auto ; /*Margenes hacia la izquierda*/
+      margin-right: auto; /*Margenes hacia la derecha*/
+      text-align: center; /*Poner el texto en el centro*/
+      border-collapse: collapse; /*Une los bordes dobles en uno*/
+   }
+
+   th,td{
+      border: 3px solid rgb(5, 5, 94);
+      padding: 10px 15px;
+      text-align: center;
+   }
+
+   th{
+      background-color: rgb(5, 5, 94);
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      font-weight: bold;
+      color: white;
+   }
+
+   caption{
+      color: rgb(5, 5, 94);
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+   }
+
+   td:hover{
+      background-color: yellow;
+   }
+
+   fieldset{
+      border: 2px solid rgb(5, 5, 94);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background-color: rgb(242, 242, 246);
+      color: rgb(5, 5, 94);
+   }
+
+   legend{
+      font-weight: bold;
+      color: rgb(5, 5, 94);
+      font-size: 25px;
+   }
+
+   input[type="text"], input[type="email"], input[type="password"], select, textarea{
+      width: 60%;
+      padding: 5px;
+      border: 1px solid rgb(5, 5, 94);
+      border-radius: 8px;
+   }
+
+   input:focus, textarea:focus{
+      border-color: greenyellow;
+      outline: none;
+   }
+
+   /*Esto son los ajustes de los botones borrar y enviar*/
+   button{
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer; /*Sirve para que cuando poner el raton encima sale el cursor*/
+   }
+
+   /*He hecho un id para cambiar solo el boton de borrar*/
+   #eliminar{
+      background-color: red;
+   }
+
+   /*Los ajustes del pie de pagina*/
+   #pie{
+     background-color: rgb(5, 5, 94);
+     color: white;
+     text-align: center; 
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+   
+
+
+
+
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscripción — Club de Informática SMR</title>
     <!-- 1. Enlaza aquí tu hoja de estilos externa: css/estilos.css -->
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
@@ -18,21 +19,26 @@
     </nav>
 
     <h2>Formulario de inscripción</h2>
+    <hr>
     <p>Rellena tus datos y elige las actividades que te interesan.</p>
 
     <form action="" method="get">
         <fieldset>
             <legend>Datos personales</legend>
+            <hr>
 
             <label for="nombre">Nombre y apellidos</label>
             <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            <hr>
 
             <label for="email">Correo electrónico</label>
             <input type="email" id="email" name="email" placeholder="tu@correo.es">
 
+            <hr>
             <label for="clave">Contraseña</label>
             <input type="password" id="clave" name="clave">
 
+            <hr>
             <label for="curso">Curso</label>
             <select id="curso" name="curso">
                 <option value="1smr">1º SMR</option>
@@ -44,37 +50,47 @@
         <fieldset>
             <legend>Actividades</legend>
 
+            <hr>
             <input type="checkbox" id="montaje" name="actividad" value="montaje">
             <label for="montaje">Montaje de un PC</label>
 
+            <hr>
             <input type="checkbox" id="wifi" name="actividad" value="wifi">
             <label for="wifi">Red Wi-Fi segura</label>
 
+            <hr>
             <input type="checkbox" id="web" name="actividad" value="web" checked>
             <label for="web">Primera web con HTML</label>
 
+            <hr>
             <input type="checkbox" id="torneo" name="actividad" value="torneo">
             <label for="torneo">Torneo en red local</label>
         </fieldset>
 
         <fieldset>
             <legend>Turno y comentarios</legend>
+            <hr>
 
             <input type="radio" id="tarde" name="turno" value="tarde" checked>
             <label for="tarde">Tarde</label>
+            <hr>
 
             <input type="radio" id="viernes" name="turno" value="viernes">
             <label for="viernes">Viernes por la mañana</label>
+            <hr>
 
             <label for="comentarios">¿Algo que debamos saber?</label>
+            <hr>
             <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
         </fieldset>
 
         <button type="submit">Enviar inscripción</button>
-        <button type="reset">Borrar</button>
+        <button type="reset" id="eliminar">Borrar</button>
     </form>
 
     <hr>
-    <p>© 2026 Club de Informática SMR · <a href="index.html">Volver al inicio</a></p>
+    <div id="pie">
+        <p>© 2026 Club de Informática SMR · <a href="index.html">Volver al inicio</a></p>
+    </div>
 </body>
 </html>
