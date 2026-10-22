@@ -23,6 +23,7 @@ y he editado del texto el color, centrado, tamaño y estilo*/
       text-align: center;
       font-style: initial;
       font-size: 25px;
+   /*Sirve para editar el subtitulo*/
    }
    .subtitulo{
       font-style: initial;
@@ -40,7 +41,7 @@ y he editado del texto el color, centrado, tamaño y estilo*/
    
    /*Esto es para que los enlaces salgan como botones*/
    nav a{
-      display: inline-block;
+      display: inline-block;/*Hace que los enlaces sean como cajas*/
       text-decoration: none;
       color: rgb(5, 5, 94);
       background-color: white;
@@ -62,10 +63,11 @@ y he editado del texto el color, centrado, tamaño y estilo*/
       font-style: initial;
    }
 
+   /*Ajustamos los parrafos*/
    p{
-      line-height: 1.5;
-      font-size: 15px;
-      text-align: justify;
+      line-height: 1.5; /*Interlineado*/
+      font-size: 15px; /*Tamaño de leta*/
+      text-align: justify;/*Texto justificado*/
    }
 
    .titulos2{
@@ -118,20 +120,28 @@ y he editado del texto el color, centrado, tamaño y estilo*/
       border-collapse: collapse; /*Une los bordes dobles en uno*/
    }
 
+   /*Configuraciones de la tabla entera*/
    th,td{
       border: 3px solid rgb(5, 5, 94);
       padding: 10px 15px;
       text-align: center;
    }
 
+   /*Damos estilo al th de la tabla*/
    th{
       background-color: rgb(5, 5, 94);
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: large;
-      font-weight: bold;
+      font-size: large;/*Tamaño de letra*/
+      font-weight: bold;/*Para poner negrita*/
       color: white;
    }
 
+   /*Configuraciones solo del cuerpo de la tabla*/
+   td{
+      background-color: white;
+   }
+
+   /*Aqui configuro el titulo de la tabla*/
    caption{
       color: rgb(5, 5, 94);
       font-size: 30px;
@@ -139,10 +149,12 @@ y he editado del texto el color, centrado, tamaño y estilo*/
       font-weight: bold;
    }
 
+   /*Sirve para que cambie el color de las celdas de la tabla cuando pones el raton*/
    td:hover{
       background-color: yellow;
    }
-
+   
+   /*Damos estilo al fielset*/
    fieldset{
       border: 2px solid rgb(5, 5, 94);
       border-radius: 8px;
@@ -150,14 +162,15 @@ y he editado del texto el color, centrado, tamaño y estilo*/
       background-color: rgb(242, 242, 246);
       color: rgb(5, 5, 94);
    }
-
+   /*Damos estilo al legend*/
    legend{
       font-weight: bold;
       color: rgb(5, 5, 94);
       font-size: 25px;
    }
 
-   input[type="text"], input[type="email"], input[type="password"], select, textarea{
+   /*Damos estilo a nombre, correo, contraseña y curso*/
+   input[type="text"], input[type="email"], input[type="password"], select, textarea{ /*imput sirve para seleccionar solo los que marca ahi*/
       width: 60%;
       padding: 5px;
       border: 1px solid rgb(5, 5, 94);
@@ -185,11 +198,12 @@ y he editado del texto el color, centrado, tamaño y estilo*/
    }
 
    /*Los ajustes del pie de pagina*/
-   #pie{
+   #pie p{ /*He puesto la p porque si no no se me centraba*/
      background-color: rgb(5, 5, 94);
      color: white;
      text-align: center; 
    }
+
 
 
 
