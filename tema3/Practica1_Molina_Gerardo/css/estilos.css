@@ -194,7 +194,7 @@ y he editado del texto el color, centrado, tamaño y estilo*/
 
    /*He hecho un id para cambiar solo el boton de borrar*/
    #eliminar{
-      background-color: red;
+      background-color: #ff0000;
    }
 
    /*Los ajustes del pie de pagina*/
