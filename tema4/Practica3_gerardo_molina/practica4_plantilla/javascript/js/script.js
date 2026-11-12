@@ -31,20 +31,36 @@ function anadir (){
 function modoNoche(){
     document.body.style.backgroundColor = "#000000";//Cambia el color de fondo del body a negro//
     document.body.style.color = "white";//Cambia la letra del body a blanco//
-    document
+    document.getElementById("modo").innerHTML = "Modo noche activado";//Sale el mensaje de modo noche activado al pulsar el boton//
 }
 
 function modoDia(){
     document.body.style.backgroundColor = "#ffff";//Cambia el color de fondo del body a blanco//
     document.body.style.color = "black";//Cambia la letra del body a negro//
+    document.getElementById("modo").innerHTML = "Modo dia activado";//Sale el mensaje de modo dia activado al pulsar el boton
 }
 
 
 
 // ===== A4. Colores de la tarjeta: function colorTarjeta(color) =====
+function colorTarjeta(){
+    document.getElementById("tarjeta").style.backgroundColor = "#00ff26";//Cambia el color de la tarjeta al pulsar el boton//
+}
+
+function colorNaranja(){
+    document.getElementById("tarjeta").style.backgroundColor = "#ff7b00";//Cambia el color de la tarjeta al pulsar el boton//
+}
+
+function colorMorado(){
+    document.getElementById("tarjeta").style.backgroundColor = "#ac05db";//Cambia el color de la tarjeta al pulsar el boton//
+}
 
 
 
 
 // ===== A5. Botón que saluda: function saludar() =====
+function saludar(){
+    alert("Hola, soy Gerardo Molina");//Crea la alerta con el texto//
+    document.getElementById("botonSaludo").style.backgroundColor = "#23c8f1";//Le pone color de fondo al boton//
+}
 
