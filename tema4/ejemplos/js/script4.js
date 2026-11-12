@@ -1,6 +1,7 @@
 function anochecer(){
     document.body.style.backgroundColor = "#000000";
     document.body.style.color = "white";
+    
 }
 
 function dia (){
